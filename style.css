@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://github.com/RomanBaibuz/My-portfolio/blob/main/danag.jpg?raw=true") no-repeat center;
+    background: url("https://user-images.githubusercontent.com/82712255/133431417-d3941a0a-da61-4610-886c-c07b135862f2.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
