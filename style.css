@@ -164,9 +164,8 @@ section .title::after{
 
 /* home section styling */
 .home {
-    background: url(https://user-images.githubusercontent.com/82712255/133442525-4b701b8d-ff77-4b94-949b-3e9dd2b7aeb5.jpg);
-    background: no-repeat;
-    background: center;
+    background: url(https://user-images.githubusercontent.com/82712255/133442525-4b701b8d-ff77-4b94-949b-3e9dd2b7aeb5.jpg) no-repeat center center fixed;
+   
     background-size: cover;
     height: 100%;
     overflow: hidden;
