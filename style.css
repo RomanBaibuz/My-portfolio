@@ -172,8 +172,23 @@ section .title::after{
     color: #fff;
     min-height: 500px;
     background-size: cover;
-    background-attachment: fixed;
+    
     font-family: 'Ubuntu', sans-serif;
+    
+    
+    background-image: none;
+
+    background-position: 0% 0%;
+
+     background-size: auto auto;
+
+    background-repeat: repeat;
+
+    background-origin: padding-box;
+
+    background-clip: border-box;
+
+     background-attachment: scroll;
 }
 .home .max-width{
   width: 100%;
