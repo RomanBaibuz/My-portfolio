@@ -217,7 +217,7 @@ section .title::after {
     background-position-x: center;
     background-position-y: top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     height: 100vh;
     transform: translateZ(0);
     will-change: transform;
