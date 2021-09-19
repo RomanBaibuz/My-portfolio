@@ -209,21 +209,25 @@ section .title::after {
 
 
 /* home section styling */
-
 .home {
     display: flex;
     background-image: url("https://user-images.githubusercontent.com/82712255/133442525-4b701b8d-ff77-4b94-949b-3e9dd2b7aeb5.jpg");
     background-size: cover;
     background-position-x: center;
-    background-position-y: top;
+    background-position-y: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     height: 100vh;
-    transform: translateZ(0);
-    will-change: transform;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+/* graceful degradation for mobile devices */
+@media (pointer: coarse), (hover: none) {
+    .home {
+        background-attachment: scroll;
+    }
 }
 
 .home .max-width {
